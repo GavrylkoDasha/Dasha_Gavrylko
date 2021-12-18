@@ -54,7 +54,7 @@ class testAPI
         "path": "/NewF.txt"
       });
       
-      var xhr = new XMLHttpRequest();
+      let xhr = new XMLHttpRequest();
       xhr.withCredentials = true;
       
       xhr.addEventListener("readystatechange", function() {
